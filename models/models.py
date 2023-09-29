@@ -25,6 +25,11 @@ class User(Base):
 
 
 class Article(Base):
+    """The article model
+
+    Args:
+        Base (Db base): The database thing
+    """
     __tablename__ = "articles"
 
     id = Column(Integer, primary_key=True, index=True)
