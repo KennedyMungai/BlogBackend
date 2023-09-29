@@ -1,0 +1,5 @@
+venv/
+requirements.txt
+alembic.ini
+*.code-workspace
+**/__pycache__/
