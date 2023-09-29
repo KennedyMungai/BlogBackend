@@ -3,3 +3,4 @@ requirements.txt
 alembic.ini
 *.code-workspace
 **/__pycache__/
+.env
