@@ -39,3 +39,4 @@ class Article(Base):
     updated_at = Column(DateTime(), onupdate=datetime.now())
     author_id = Column(Integer, ForeignKey("users.id"),
                        nullable=False, ondelete="CASCADE")
+    author = relationship("User", back_populates="articles")
